@@ -1,0 +1,62 @@
+// sass variables
+$cool-blue:#484897;
+$dusty-orange:#bb7b4a;
+
+// apply sass vars
+#gradientbg {
+    background-image:
+      linear-gradient(
+        to right, 
+        $cool-blue, $dusty-orange
+      );
+  }
+
+.bordered {
+    border-style: solid;
+    border-color: red;
+    border-width: 1em;
+}
+
+.selectclass {
+    background-color: rgb(190, 209, 208);
+}
+// everything nested inside of body using sass 
+body{
+    background-color: whitesmoke;
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    color: black;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: medium;
+    font-size: 2em;
+}
+
+table{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: medium;
+    font-size: 1em;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h3 {
+    font-style: italic;
+}
+}
+// when screen is smaller than 400px make body pink lol
+@media screen and (max-width: 400px) {
+    body {
+      background-color: pink;
+    }
+  }

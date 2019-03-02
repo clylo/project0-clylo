@@ -1,0 +1,49 @@
+#gradientbg {
+  background-image: linear-gradient(to right, #484897, #bb7b4a);
+}
+
+.bordered {
+  border-style: solid;
+  border-color: red;
+  border-width: 1em;
+}
+
+.selectclass {
+  background-color: #bed1d0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+body h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  color: black;
+}
+body p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: medium;
+  font-size: 2em;
+}
+body table {
+  font-family: "Open Sans", sans-serif;
+  font-weight: medium;
+  font-size: 1em;
+}
+body h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+body h3 {
+  font-style: italic;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
